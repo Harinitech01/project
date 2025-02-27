@@ -10,7 +10,7 @@ import Dashboard from "./pages/Dashboard";
 import CreateProject from "./pages/CreateProject";
 import InviteTeamMembers from "./pages/InviteTeamMembers";
 import ViewReports from "./pages/ViewReports";
-import RecentProjects from "./pages/RecentProjects"; // Import the new page
+import Profile from "./pages/Profile";
 import "./index.css";
 
 const App = () => {
@@ -26,7 +26,7 @@ const App = () => {
         <Route path="/create-project" element={<CreateProject />} />
         <Route path="/invite-team" element={<InviteTeamMembers />} />
         <Route path="/view-reports" element={<ViewReports />} />
-        <Route path="/recent-projects" element={<RecentProjects />} /> {/* Add the new route */}
+        <Route path="/profile" element={<Profile />} />
       </Routes>
       <Footer />
     </Router>
