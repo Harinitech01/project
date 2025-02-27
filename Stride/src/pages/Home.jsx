@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 
 const Home = () => {
-  // Dummy data for recent projects
+  
   const recentProjects = [
     { id: 1, name: "Website Redesign", progress: 75 },
     { id: 2, name: "Mobile App Development", progress: 50 },
@@ -15,7 +15,7 @@ const Home = () => {
       <h1>Welcome Back!</h1>
       <p>Manage your projects efficiently with Stride.</p>
 
-      {/* Quick Actions */}
+    
       <section className="quick-actions">
         <h2>Quick Actions</h2>
         <div className="action-buttons">
@@ -25,7 +25,6 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Recent Projects */}
       <section className="recent-projects">
         <h2>Recent Projects</h2>
         <div className="project-list">

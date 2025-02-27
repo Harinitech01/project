@@ -27,7 +27,7 @@ const RecentActivity = () => {
     {
       id: 4,
       action: "Team Member Added",
-      details: "John Doe (Frontend Developer)",
+      details: "Arunaa(Frontend Developer)",
       time: "2 days ago",
       project: "Marketing Campaign",
     },

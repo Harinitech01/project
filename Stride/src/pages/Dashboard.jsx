@@ -24,9 +24,9 @@ const Dashboard = () => {
 
   // Dummy data for team members
   const teamMembers = [
-    { id: 1, name: "John Doe", role: "Frontend Developer" },
-    { id: 2, name: "Jane Smith", role: "Backend Developer" },
-    { id: 3, name: "Alice Johnson", role: "Project Manager" },
+    { id: 1, name: "Arunaa", role: "Frontend Developer" },
+    { id: 2, name: "Hasmitha", role: "Backend Developer" },
+    { id: 3, name: "Iswarya", role: "Project Manager" },
   ];
 
   // Dummy data for project statistics

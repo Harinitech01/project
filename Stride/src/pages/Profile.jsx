@@ -2,11 +2,11 @@ import React, { useState } from "react";
 
 
 const Profile = () => {
-  // Dummy user data (replace with actual user data from your backend or context)
+  
   const [user, setUser] = useState({
-    name: "John Doe",
-    email: "johndoe@example.com",
-    profilePicture: "", // Initially empty
+    name: "Haripriya",
+    email: "Haripriya@gmail.com",
+    profilePicture: "", 
     bio: "I'm a passionate developer who loves building amazing projects!",
   });
 
